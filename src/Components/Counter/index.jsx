@@ -11,12 +11,14 @@ export default class Counter extends Component {
         }
     }
     countPlus = () => {
+      this.setState({
+      })
       this.default.value = this.default.value + this.default.step;
-      console.log(this.default.value);
     }
     countMines = () => {
+      this.setState({
+      })
       this.default.value = this.default.value - this.default.step;
-      console.log(this.default.value);
     }
   render() {
     return (
